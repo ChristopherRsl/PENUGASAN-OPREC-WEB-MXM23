@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.main{
+    /* width: 400px;
+    height: 200px; */
+    /* flex-direction: row; */
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-evenly;
+}
+.cross{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    justify-content: space-evenly;
+}
+.item{
+    width: 100px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.flexbox-1{
+    background-color:  rgb(238, 100, 100);
+    min-height: 220px;
+    min-width: 220px;
+       
+}
+.flexbox-2{
+    background-color:  greenyellow;
+    min-width: 220px;
+}
+.flexbox-3{
+    background-color:  rgb(241, 135, 224);
+    
+}
+.flexbox-4{
+    background-color:  hwb(240 55% 4%);
+
+}
